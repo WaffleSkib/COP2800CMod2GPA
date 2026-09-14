@@ -31,6 +31,10 @@ public class PalmerPenguinsM2 {
         System.out.println("There are a total of " + TOTAL_SPECIES + 
                            " penguin species in this dateset.");
                            
+        // output the total number of penguins
+        System.out.println("There are a total of " + totalPenguins + 
+                           " penguins in the dataset.");
+                           
         // output percentage of penguins for each specie
         System.out.printf("%s: %d (%.2f%%)\n", SP_CHINSTRAP, NUM_CHINSTRAP, 
                           ((double) NUM_CHINSTRAP / totalPenguins * 100));
